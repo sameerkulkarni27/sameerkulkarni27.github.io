@@ -49,12 +49,11 @@ function passwordGenerator() {
 }
 
 function copyText() {
-    // Taken from w3schools
-    var text = document.getElementById("psadword");
+    var text = document.getElementById("psadword").innerText;
 
     text.select();
     text.setSelectionRange(0, 99999);
     
-    navigator.clipboard.writeText(text.value);
+    navigator.clipboard.writeText(text);
     alert("Copied to clipboard!");
 }
