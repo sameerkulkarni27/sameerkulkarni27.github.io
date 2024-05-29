@@ -47,3 +47,14 @@ function passwordGenerator() {
 
     document.getElementById("psadword").innerHTML = result;
 }
+
+function copyText() {
+    // Taken from w3schools
+    var text = document.getElementById("psadword");
+
+    text.select();
+    text.setSelectionRange(0, 99999);
+    
+    navigator.clipboard.writeText(text.value);
+    alert("Copied to clipboard!");
+}
