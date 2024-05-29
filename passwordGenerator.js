@@ -51,8 +51,8 @@ function passwordGenerator() {
 function copyText() {
     var text = document.getElementById("psadword").innerText;
 
-    text.select();
-    text.setSelectionRange(0, 99999);
+    //text.select();
+    //text.setSelectionRange(0, 99999);
     
     navigator.clipboard.writeText(text);
     alert("Copied to clipboard!");
