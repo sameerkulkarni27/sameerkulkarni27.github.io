@@ -1,3 +1,2 @@
-# InfamousBidoof91.github.io
-first website
-;)
+# ssk27.com
+Personal website.
